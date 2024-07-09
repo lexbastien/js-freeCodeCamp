@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palíndromo chequeador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">¿Es esto un Palíndromo?</h1>
+        <div class="palindrome-div">
+            <label for="text-input">Ingrese un texto para chequear por un palíndromo: </label>
+            <input class="palindrome-input" value="" type="text" id="text-input">
+            <button class="palindrome-btn" id="check-btn">Chequear</button>
+            <div class="results-div hidden" id="result"></div>
+        </div>
+<div class="palindrome-definition-div">
+    <p class="palindrome-definition">
+        <span role="img" aria-label="light-bulb">&#128161;</span>
+        Un <dfn>palíndromo</dfn> es un palabra o sentencia que se deletrea igual al derecho y al reves, ignorando la puntuación, letra y espacio.
+    </p>
+</div>
+    </main>
+    <button id="check-btn"></button>
+    <div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
